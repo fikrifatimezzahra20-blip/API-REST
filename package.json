@@ -1,25 +1,18 @@
 {
-  "name": "api-rest",
+  "name": "API-REST",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  
- "scripts": {
-    "start": "node --watch server",
-    "dev": "nodemon server.js"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "description": "FIFA World Cup 2026 Referee API",
   "type": "module",
-  "dependencies": {
-    "dotenv": "^17.4.2",
-    "express": "^5.2.1",
-    "pg": "^8.22.0",
-    "pg-hstore": "^2.3.4",
-    "sequelize": "^6.37.8"
+  "main": "server.js",
+  "scripts": {
+    "dev": "node --watch server.js",
+    "start": "node server.js"
   },
-  "devDependencies": {
-    "nodemon": "^3.1.14"
+  "dependencies": {
+    "dotenv": "^17.0.0",
+    "express": "^5.1.0",
+    "pg": "^8.16.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.0"
   }
 }
